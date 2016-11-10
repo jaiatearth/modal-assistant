@@ -1,0 +1,25 @@
+.homepage{
+  background: url('images/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  &__signup{
+    top: 80%;
+    left:20%;
+    position: absolute;
+    &-link{
+      color: #ff4081;
+      font-size: 30px;
+      font-weight: $normal;
+      text-decoration: underline;
+    }
+  }
+}

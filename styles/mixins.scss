@@ -1,0 +1,55 @@
+.show {
+    display: block;
+}
+.hide{
+    display: none;
+}
+.center{
+    margin: 0 auto;
+}
+.cursor{
+    cursor: pointer;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+@mixin  placeholder {
+    ::-webkit-input-placeholder {
+        color: #AAAAAA;
+        font-weight: 300;
+        font-family: "Lato";
+    }
+
+    :-moz-placeholder {
+        color: #AAAAAA;
+        font-weight: 300;
+        font-family: "Lato";
+    }
+
+    ::-moz-placeholder {
+        color: #AAAAAA;
+        font-weight: 300;
+        font-family: "Lato";
+    }
+
+    :-ms-input-placeholder {
+        color: #AAAAAA;
+        font-weight: 300;
+        font-family: "Lato";
+    }
+}

@@ -1,0 +1,10 @@
+
+// Import pages
+body{
+    font-family: 'Lato';
+    margin: 0px !important;
+}
+@import 'variables';
+@import 'mixins';
+@import 'home';
+@import 'modal';
