@@ -10,9 +10,10 @@
     background-color: rgba(0,0,0,0.4);
     &-box{
         background-color: $primary-color;
-        margin: 15% auto;
+        margin-top:5%;
+        margin-left: 25%;
         padding: 20px;
-        width: 60%;
+        width: 50%;
         height:auto;
         &__close{
             color: $grey;
@@ -26,8 +27,9 @@
         }
         &__header{
             margin-top:20px;
-            height : 80px;
+            height : 60px;
             padding: 10px;
+            width:100%;
             &-steps{
                 width: 37px;
                 height: 37px;
@@ -38,7 +40,42 @@
                 justify-content: center;
                 float: left;
                 border-radius: 19px;
-                margin: 10px 10px;
+                margin: 10px 30px;
+            }
+        }
+        &__content{
+            height: auto;
+            width:100%;
+            background: $white;
+            @include border-radius(3px);
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+        &__footer{
+            height:100px;
+            background-color: $secondary-color;
+            width: 100%;
+            @include border-radius(3px);
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            &-previous, &-next{
+                background-color: $primary-color;
+                color: $white;
+                font-size: 16px;
+                width: 120px;
+                font-weight: $semibold;
+                @include border-radius(30px);
+                text-align: center;
+                padding: 15px 5px;
+                float: left;
+                margin-left: 5%;
+                margin-top: 4%;
+                letter-spacing: 1px;
+            }
+            &-next{
+                float: right;
+                margin-right: 5%;
+                margin-left: 0%;
             }
         }
     }

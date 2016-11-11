@@ -43,7 +43,7 @@ body {
   top: 0;
   left: 0; }
   .homepage__signup {
-    top: 80%;
+    top: 70%;
     left: 20%;
     position: absolute; }
     .homepage__signup-link {
@@ -66,9 +66,10 @@ body {
   background-color: rgba(0, 0, 0, 0.4); }
   .modal-box {
     background-color: #E33946;
-    margin: 15% auto;
+    margin-top: 5%;
+    margin-left: 25%;
     padding: 20px;
-    width: 60%;
+    width: 50%;
     height: auto; }
     .modal-box__close {
       color: #D4D4D4;
@@ -80,8 +81,9 @@ body {
       text-decoration: none; }
     .modal-box__header {
       margin-top: 20px;
-      height: 80px;
-      padding: 10px; }
+      height: 60px;
+      padding: 10px;
+      width: 100%; }
       .modal-box__header-steps {
         width: 37px;
         height: 37px;
@@ -92,6 +94,70 @@ body {
         justify-content: center;
         float: left;
         border-radius: 19px;
-        margin: 10px 10px; }
+        margin: 10px 30px; }
+    .modal-box__content {
+      height: auto;
+      width: 100%;
+      background: #FFFFFF;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px; }
+    .modal-box__footer {
+      height: 100px;
+      background-color: #FCEFBA;
+      width: 100%;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px; }
+      .modal-box__footer-previous, .modal-box__footer-next {
+        background-color: #E33946;
+        color: #FFFFFF;
+        font-size: 16px;
+        width: 120px;
+        font-weight: 600;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        border-radius: 30px;
+        text-align: center;
+        padding: 15px 5px;
+        float: left;
+        margin-left: 5%;
+        margin-top: 4%;
+        letter-spacing: 1px; }
+      .modal-box__footer-next {
+        float: right;
+        margin-right: 5%;
+        margin-left: 0%; }
+
+.profile {
+  padding: 20px 30px 30px 30px; }
+  .profile__label {
+    margin-bottom: 15px; }
+    .profile__label-text {
+      font-size: 22px;
+      color: #4A4A4A; }
+  .profile__facebook, .profile__twitter {
+    margin-bottom: 20px; }
+    .profile__facebook-label, .profile__twitter-label {
+      font-size: 20px;
+      font-weight: normal;
+      margin-bottom: 5px; }
+    .profile__facebook-content input[type="text"], .profile__twitter-content input[type="text"] {
+      color: #4A4A4A;
+      border: 1px solid #D4D4D4;
+      height: 40px;
+      width: 98%;
+      padding: 0px 0px 0px 10px;
+      font-size: 18px;
+      font-family: "Lato"; }
+  .profile__twitter {
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */

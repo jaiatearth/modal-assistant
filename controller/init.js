@@ -5,4 +5,7 @@ $(document).ready(function(){
     $(".signup-trigger").on("click",function(){
         create(".homepage-modal");
     });
+    $(document).on("click", ".close-modal" , function(){
+        close();
+    });
 });
