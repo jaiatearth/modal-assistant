@@ -8,7 +8,6 @@ function initModal(){
     $(".modal-box__content").load("view/step-"+currentModal+".html");
     $(".step-0").css("background-color","#FCEFBA");
 
-
 }
 
 function modalCreate(element){
