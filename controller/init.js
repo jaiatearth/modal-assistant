@@ -10,5 +10,7 @@ $(document).ready(function(){
     $(document).on("click", ".close-modal" , function(){
         close();
     });
-
+    $(document).on("click",".submit", function(){
+        close();
+    });
 });

@@ -27,6 +27,19 @@
 .text-right {
     text-align: right;
 }
+.space{
+    margin-right:50px;
+}
+.activate-step{
+    background-color: $secondary-color;
+    color: $primary-color;
+}
+.deactivate-step{
+    background-color: $primary-color;
+    color: $white;
+}
+
+
 
 
 @mixin border-radius($radius) {

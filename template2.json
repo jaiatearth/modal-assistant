@@ -1,0 +1,13 @@
+[{
+    "nextPage": true,
+    "prevPage": false,
+    "title": "PROFILE"
+}, {
+    "nextPage": true,
+    "prevPage": true,
+    "title": "PERSONAL"
+}, {
+    "nextPage": true,
+    "prevPage": true,
+    "title": "QUESTION"
+}]

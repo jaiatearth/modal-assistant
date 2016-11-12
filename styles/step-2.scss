@@ -1,0 +1,22 @@
+.question{
+    padding :30px 30px 30px 30px;
+    &__label{
+        @include textLabel;
+    }
+    &__text{
+        textarea{
+            width: 98%;
+            height: 80px;
+            border: 1px solid #cccccc;
+            padding: 10px 0px 0px 10px;
+            font-family: $font-name;
+            background-repeat: no-repeat;
+            border-radius: 3px;
+            font-size: 18px;
+            font-weight: 300;
+            margin-top: 15px;
+            resize: none;
+            outline-color: $secondary-color;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.submit{
+    padding :30px 30px 30px 30px;
+    &__text{
+        @include textLabel;
+        text-align: center;
+        margin-bottom:20px;
+    }
+    &__button{
+        background-color: $text-black;
+        width:100px;
+        @include border-radius(3px);
+        margin:0 auto;
+        padding: 10px;
+        text-align: center;
+        color: $white;
+        font-weight:300;
+        letter-spacing: 2px;
+    }
+}
