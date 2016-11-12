@@ -1,0 +1,24 @@
+.profile{
+    padding: 20px 30px 30px 30px;
+    &__label{
+        margin-bottom: 15px;
+        &-text{
+            font-size: 22px;
+            color: $text-black;
+        }
+    }
+    &__facebook, &__twitter{
+        margin-bottom: 20px;
+        &-label{
+           @include textLabel;
+        }
+        &-content{
+            input[type="text"]{
+               @include textBox;
+            }
+        }
+    }
+    &__twitter{
+        margin-bottom:10px;
+    }
+}

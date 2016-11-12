@@ -28,37 +28,30 @@
     text-align: right;
 }
 
-@mixin  placeholder {
-    ::-webkit-input-placeholder {
-        color: #AAAAAA;
-        font-weight: 300;
-        font-family: "Lato";
-    }
-
-    :-moz-placeholder {
-        color: #AAAAAA;
-        font-weight: 300;
-        font-family: "Lato";
-    }
-
-    ::-moz-placeholder {
-        color: #AAAAAA;
-        font-weight: 300;
-        font-family: "Lato";
-    }
-
-    :-ms-input-placeholder {
-        color: #AAAAAA;
-        font-weight: 300;
-        font-family: "Lato";
-    }
-}
 
 @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
     -ms-border-radius: $radius;
     border-radius: $radius;
+}
+
+@mixin textLabel{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+@mixin textBox{
+    color: $text-black;
+    border: 1px solid $grey;
+    height:40px;
+    width: 98%;
+    padding: 0px 0px 0px 10px;
+    font-size: 18px;
+    font-family: $font-name;
+    margin-bottom: 20px;
+    outline-color: $secondary-color;
+    @include border-radius(3px);
 }
 
 

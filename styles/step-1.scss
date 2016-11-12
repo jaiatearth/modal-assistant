@@ -1,32 +1,31 @@
-.profile{
+.personal{
     padding: 20px 30px 30px 30px;
     &__label{
-        margin-bottom: 15px;
-        &-text{
-            font-size: 22px;
+        @include textLabel;
+    }
+    &__text{
+        input[type="text"] ,input[type="number"]{
+            @include textBox;
+        }
+        select{
+            overflow: hidden;
+            width: 100%;
+            height: 40px;
+            margin-bottom: 20px;
+            font-size:18px;
+            font-weight: $normal;
+            outline-color: $secondary-color;
+            @include border-radius(3px);
+            border:1px solid $grey;
+            padding: 9px;
+            font-family: $font-name;
+            font-size: 18px;
             color: $text-black;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: url('images/down-arrow.png') no-repeat 97% 50% #ffffff;
+            background-size: 18px 16px;
         }
-    }
-    &__facebook, &__twitter{
-        margin-bottom: 20px;
-        &-label{
-            font-size: 20px;
-            font-weight: normal;
-            margin-bottom: 5px;
-        }
-        &-content{
-            input[type="text"]{
-                color: $text-black;
-                border: 1px solid $grey;
-                height:40px;
-                width: 98%;
-                padding: 0px 0px 0px 10px;
-                font-size: 18px;
-                font-family: $font-name;
-            }
-        }
-    }
-    &__twitter{
-        margin-bottom:10px;
     }
 }

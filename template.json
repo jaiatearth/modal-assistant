@@ -1,34 +1,17 @@
-{
-    "steps-count" : "3",
-    "steps" : {
-        "step-one" : {
-            "id" : "1",
-            "next" : "true",
-            "previous" : "false",
-            "title" : "profile",
-            "view" : "step-one.html"
-        },
-        "step-two" : {
-            "id" : "2",
-            "next" : "true",
-            "previous" : "true",
-            "title" : "personal",
-            "view" : "step-two.html"
-        },
-        "step-three" : {
-            "id" : "3",
-            "next" : "true",
-            "previous" : "true",
-            "title" : "question",
-            "view" : "step-three.html"
-        },
-        "step-four" : {
-            "id" : "4",
-            "next" : "false",
-            "previous" : "true",
-            "title" : "t&c",
-            "view" : "step-four.html"
-        }
-    },
-    "launch-step" : "step-one"
-}
+[{
+"nextPage": true,
+"prevPage": false,
+"title": "PROFILE"
+}, {
+"nextPage": true,
+"prevPage": true,
+"title": "PERSONAL"
+}, {
+"nextPage": true,
+"prevPage": true,
+"title": "QUESTION"
+}, {
+"nextPage": false,
+"prevPage": true,
+"title": "TERMS AND CONDITIONS"
+}]
