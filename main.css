@@ -20,25 +20,18 @@ body {
 .pull-right {
   float: right; }
 
-.text-left {
-  text-align: left; }
-
-.text-center {
-  text-align: center; }
-
-.text-right {
-  text-align: right; }
-
 .space {
   margin-right: 50px; }
 
 .activate-step {
-  background-color: #FCEFBA;
-  color: #E33946; }
+  background-color: #E33946;
+  color: #FFFFFF;
+  cursor: pointer !important; }
 
 .deactivate-step {
-  background-color: #E33946;
-  color: #FFFFFF; }
+  background-color: #D4D4D4 !important;
+  color: #E4E4E4;
+  cursor: not-allowed !important; }
 
 .homepage {
   background: url("images/bg.jpg") no-repeat center center fixed;

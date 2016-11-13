@@ -16,27 +16,18 @@
 .pull-right{
     float: right;
 }
-.text-left {
-    text-align: left;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-right {
-    text-align: right;
-}
 .space{
     margin-right:50px;
 }
 .activate-step{
-    background-color: $secondary-color;
-    color: $primary-color;
-}
-.deactivate-step{
     background-color: $primary-color;
     color: $white;
+    cursor: pointer !important;
+}
+.deactivate-step{
+    background-color: $grey !important;
+    color: #E4E4E4;
+    cursor: not-allowed !important;
 }
 
 

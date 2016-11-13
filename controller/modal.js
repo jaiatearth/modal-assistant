@@ -1,13 +1,12 @@
 var currentModal = 0;
 
 function initModal(){
-    console.info(templateData);
     for(var i=0; i<templateData.length; i++) {
         $(".step-title-"+i).html(templateData[i].title);
     }
     $(".modal-box__content").load("view/step-"+currentModal+".html");
     $(".step-0").css("background-color","#FCEFBA");
-
+    $(".previous").addClass("deactivate-step");
 }
 
 function modalCreate(element){
@@ -23,11 +22,9 @@ function close(){
 }
 
 function shiftPage(modalId){
-    console.log("n", modalId);
     $(".modal-box__content").html("");
     $(".modal-box__content").load("view/step-"+modalId+".html", function(responseTxt, statusTxt, xhr){
         if(statusTxt == "success")
-            console.log("External content loaded successfully!");
         if(statusTxt == "error")
             console.log("Error: " + xhr.status + ": " + xhr.statusText);
     });
@@ -38,6 +35,22 @@ function shiftPage(modalId){
         } else {
             $(".step-"+i).css("background-color","#E33946");
         }
+    }
+
+    if ( modalId == 0 ){
+        $(".previous").addClass("deactivate-step");
+        $(".previous").prop("disabled","true");
+    } else {
+        $(".previous").removeClass("deactivate-step").addClass("activate-step");
+        $(".previous").prop("disabled","false");
+    }
+
+    if ( modalId == templateData.length-1 ) {
+        $(".next").addClass("deactivate-step");
+        $(".previous").prop("disabled","true");
+    } else {
+        $(".next").removeClass("deactivate-step").addClass("activate-step");
+        $(".previous").prop("disabled","false");
     }
 
 }
@@ -56,3 +69,10 @@ $(document).on("click",".previous", function(){
         shiftPage(currentModal);
     }
 });
+
+$(document).on("click",".modal-box__header-steps", function(){
+    currentModal = $(this).data("stepnumber");
+    shiftPage(currentModal);
+});
+
+
