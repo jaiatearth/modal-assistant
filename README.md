@@ -17,23 +17,30 @@ Add the javascript to the document
 
 ### Configuration
 
-[
-    {
-        "title": "Page 1 title",
-        "templateName": "page1.html"
-    },
-    {
-        "title": "Page 2 title",
-        "templateName": "page2.html"
-    }
-]
+template.json
 
-You can :
-  - add or remove object, to add or remove steps in modal box, without editing code.
+{
+    "modalConfig": [
+        {
+            "title": "PROFILE",
+            "templateName": "step-0.html"
+        },
+        {
+            "title": "PERSONAL",
+            "templateName": "step-1.html"
+        }
+    ],
+    "nextEvents": [
+        97,98
+    ],
+    "prevEvents": [
+        99,100
+    ]
+}
+
+### You can
+  - Modal window will be rendered based on the JSON configuraion.
+  - Can hook the next/previous events with nextEvents/prevEvents by specifying the ASCII code of characters
   
-### Feature
-
-  - Next and previous, for transition in between steps
-  - Hard Keys support for next and previous transitions
 
 
