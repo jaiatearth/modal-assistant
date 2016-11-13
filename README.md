@@ -38,7 +38,7 @@ template.json
     ]
 }
 
-### You can
+### Features
   - Modal window will be rendered based on the JSON configuraion.
   - Can hook the next/previous events with nextEvents/prevEvents by specifying the ASCII code of characters
   
