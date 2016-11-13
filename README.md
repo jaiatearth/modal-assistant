@@ -6,9 +6,8 @@ Library to create Modal window inside any html.
 
 ### Usage
 
-<dd>
-<div id="myLightBox"></div>
-</dd>
+
+`<div id="myLightBox">` `</div>`
 
 Add the javascript to the document  
 <script src="modal.js"></script>
