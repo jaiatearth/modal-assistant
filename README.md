@@ -10,8 +10,8 @@ Library to create Modal window inside any html.
 `<div id="myLightBox"> </div>`
 
 Add the javascript to the document  
-`<script src="modal.js"></script>`
-`<script>
+`<script src="modal.js"></script>
+<script>
     modalCreate("#myLightBox");
 </script>`
 
@@ -29,4 +29,11 @@ Add the javascript to the document
 ]
 
 You can :
-  - add or remove object to add/remove steps in modal box.
+  - add or remove object, to add or remove steps in modal box, without editing code.
+  
+### Feature
+
+  - Next and previous, for transition in between steps
+  - Hard Keys support for next and previous transitions
+
+
