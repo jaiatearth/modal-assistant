@@ -12,4 +12,6 @@ body{
 @import "step-1";
 @import "step-2";
 @import "step-3";
-@import "responsive";
+@import "responsiveness/responsiveMixins";
+@import "responsiveness/mobile";
+@import "responsiveness/tablet";

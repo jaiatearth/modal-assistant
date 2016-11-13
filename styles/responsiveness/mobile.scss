@@ -1,0 +1,8 @@
+
+@media only screen and (min-device-width : 319px) and (max-device-width : 700px) {
+    @include mobileMode;
+}
+
+@media screen and (max-width: 700px){
+    @include mobileMode;
+}

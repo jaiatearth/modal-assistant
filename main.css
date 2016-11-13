@@ -268,4 +268,165 @@ body {
     font-weight: 300;
     letter-spacing: 2px; }
 
+@media only screen and (min-device-width: 319px) and (max-device-width: 700px) {
+  .homepage {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-color: #FCEFBA; }
+    .homepage__signup {
+      top: 75%;
+      left: 10%; }
+
+  .modal-box {
+    background-color: #E33946;
+    margin-top: 10%;
+    margin-left: 5%;
+    padding: 10px;
+    width: 80%; }
+    .modal-box__close {
+      top: -20px;
+      left: 20px; }
+    .modal-box__header {
+      height: 30px; }
+      .modal-box__header .space {
+        margin-right: 20px; }
+      .modal-box__header-steps {
+        width: 10px;
+        height: 10px;
+        font-size: 14px;
+        border: none;
+        background-color: #E33946 !important; }
+      .modal-box__header-label {
+        font-size: 9px; }
+    .modal-box__footer {
+      height: 75px; }
+    .modal-box__footer-previous, .modal-box__footer-next {
+      width: 80px;
+      font-size: 12px; }
+    .modal-box__content .profile {
+      padding: 20px 30px 10px 30px; }
+      .modal-box__content .profile__label {
+        margin-bottom: 25px; }
+        .modal-box__content .profile__label-text {
+          font-size: 19px; }
+      .modal-box__content .profile__facebook, .modal-box__content .profile__twitter {
+        margin-bottom: 10px; }
+      .modal-box__content .profile__facebook-label, .modal-box__content .profile__twitter-label {
+        font-size: 18px; }
+    .modal-box__content input[type="text"] {
+      font-size: 16px; }
+    .modal-box__content .personal__label, .modal-box__content .question__label {
+      font-size: 18px; }
+    .modal-box__content .submit__text {
+      font-size: 19px; } }
+@media screen and (max-width: 700px) {
+  .homepage {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-color: #FCEFBA; }
+    .homepage__signup {
+      top: 75%;
+      left: 10%; }
+
+  .modal-box {
+    background-color: #E33946;
+    margin-top: 10%;
+    margin-left: 5%;
+    padding: 10px;
+    width: 80%; }
+    .modal-box__close {
+      top: -20px;
+      left: 20px; }
+    .modal-box__header {
+      height: 30px; }
+      .modal-box__header .space {
+        margin-right: 20px; }
+      .modal-box__header-steps {
+        width: 10px;
+        height: 10px;
+        font-size: 14px;
+        border: none;
+        background-color: #E33946 !important; }
+      .modal-box__header-label {
+        font-size: 9px; }
+    .modal-box__footer {
+      height: 75px; }
+    .modal-box__footer-previous, .modal-box__footer-next {
+      width: 80px;
+      font-size: 12px; }
+    .modal-box__content .profile {
+      padding: 20px 30px 10px 30px; }
+      .modal-box__content .profile__label {
+        margin-bottom: 25px; }
+        .modal-box__content .profile__label-text {
+          font-size: 19px; }
+      .modal-box__content .profile__facebook, .modal-box__content .profile__twitter {
+        margin-bottom: 10px; }
+      .modal-box__content .profile__facebook-label, .modal-box__content .profile__twitter-label {
+        font-size: 18px; }
+    .modal-box__content input[type="text"] {
+      font-size: 16px; }
+    .modal-box__content .personal__label, .modal-box__content .question__label {
+      font-size: 18px; }
+    .modal-box__content .submit__text {
+      font-size: 19px; } }
+@media only screen and (min-device-width: 701px) and (max-device-width: 1250px) {
+  .homepage {
+    background-size: contain; }
+    .homepage__signup {
+      left: 10%; }
+
+  .modal-box {
+    margin-top: 5%; }
+    .modal-box__header .space {
+      margin-right: 25px; }
+    .modal-box__content .profile {
+      padding: 20px 30px 10px 30px; }
+      .modal-box__content .profile__label {
+        margin-bottom: 25px; }
+        .modal-box__content .profile__label-text {
+          font-size: 19px; }
+    .modal-box__content .personal {
+      padding: 20px 30px 10px 30px; }
+    .modal-box__footer {
+      height: 70px; }
+      .modal-box__footer-next, .modal-box__footer-previous {
+        width: 90px;
+        padding: 12px 5px;
+        font-size: 13px; }
+    .modal-box .personal__label, .modal-box .question__label {
+      font-size: 18px; }
+    .modal-box .submit__text {
+      font-size: 19px; } }
+@media screen and (max-width: 1250px) {
+  .homepage {
+    background-size: contain; }
+    .homepage__signup {
+      left: 10%; }
+
+  .modal-box {
+    margin-top: 5%; }
+    .modal-box__header .space {
+      margin-right: 25px; }
+    .modal-box__content .profile {
+      padding: 20px 30px 10px 30px; }
+      .modal-box__content .profile__label {
+        margin-bottom: 25px; }
+        .modal-box__content .profile__label-text {
+          font-size: 19px; }
+    .modal-box__content .personal {
+      padding: 20px 30px 10px 30px; }
+    .modal-box__footer {
+      height: 70px; }
+      .modal-box__footer-next, .modal-box__footer-previous {
+        width: 90px;
+        padding: 12px 5px;
+        font-size: 13px; }
+    .modal-box .personal__label, .modal-box .question__label {
+      font-size: 18px; }
+    .modal-box .submit__text {
+      font-size: 19px; } }
+
 /*# sourceMappingURL=main.css.map */
