@@ -1,17 +1,26 @@
-[{
-"nextPage": true,
-"prevPage": false,
-"title": "PROFILE"
-}, {
-"nextPage": true,
-"prevPage": true,
-"title": "PERSONAL"
-}, {
-"nextPage": true,
-"prevPage": true,
-"title": "QUESTION"
-}, {
-"nextPage": false,
-"prevPage": true,
-"title": "T&C"
-}]
+[
+    {
+        "nextPage": true,
+        "prevPage": false,
+        "title": "PROFILE",
+        "templateName": "step-0.html"
+    },
+    {
+        "nextPage": true,
+        "prevPage": true,
+        "title": "PERSONAL",
+        "templateName": "step-1.html"
+    },
+    {
+        "nextPage": false,
+        "prevPage": true,
+        "title": "Questions",
+        "templateName": "step-2.html"
+    },
+    {
+        "nextPage": false,
+        "prevPage": true,
+        "title": "T&C",
+        "templateName": "step-3.html"
+    }
+]

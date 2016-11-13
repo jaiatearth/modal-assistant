@@ -22,14 +22,12 @@
         &__header{
             height:30px;
             .space{
-                margin-right: 20px;
+                //margin-right: 20px;
             }
             &-steps{
-                width: 10px;
-                height: 10px;
-                font-size: 14px;
-                border:none;
-                background-color: $primary-color !important;
+                width: 15px;
+                height: 15px;
+                font-size: 12px;
             }
             &-label{
                 font-size:9px;
@@ -86,7 +84,7 @@
             margin-top:5%;
             &__header {
                 .space {
-                    margin-right: 25px;
+                    //margin-right: 20px;
                 }
             }
 

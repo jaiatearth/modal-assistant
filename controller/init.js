@@ -1,16 +1,15 @@
-
 var templateData;
-$(document).ready(function(){
-    $.getJSON("template.json", function(data){
+$(document).ready(function () {
+    $.getJSON("template.json", function (data) {
         templateData = data;
     });
-    $(".signup-trigger").on("click",function(){
+    $(".signup-trigger").on("click", function () {
         modalCreate(".homepage-modal");
     });
-    $(document).on("click", ".close-modal" , function(){
+    $(document).on("click", ".close-modal", function () {
         close();
     });
-    $(document).on("click",".submit", function(){
+    $(document).on("click", ".submit", function () {
         close();
     });
 });

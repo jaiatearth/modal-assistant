@@ -20,9 +20,6 @@ body {
 .pull-right {
   float: right; }
 
-.space {
-  margin-right: 50px; }
-
 .activate-step {
   background-color: #E33946;
   color: #FFFFFF;
@@ -94,9 +91,8 @@ body {
       text-decoration: none; }
     .modal-box__header {
       height: 60px;
-      padding: 10px;
-      width: 100%;
-      margin-bottom: 10px; }
+      padding: 8px 10px;
+      width: 100%; }
       .modal-box__header-steps {
         width: 37px;
         height: 37px;
@@ -289,14 +285,10 @@ body {
       left: 20px; }
     .modal-box__header {
       height: 30px; }
-      .modal-box__header .space {
-        margin-right: 20px; }
       .modal-box__header-steps {
-        width: 10px;
-        height: 10px;
-        font-size: 14px;
-        border: none;
-        background-color: #E33946 !important; }
+        width: 15px;
+        height: 15px;
+        font-size: 12px; }
       .modal-box__header-label {
         font-size: 9px; }
     .modal-box__footer {
@@ -341,14 +333,10 @@ body {
       left: 20px; }
     .modal-box__header {
       height: 30px; }
-      .modal-box__header .space {
-        margin-right: 20px; }
       .modal-box__header-steps {
-        width: 10px;
-        height: 10px;
-        font-size: 14px;
-        border: none;
-        background-color: #E33946 !important; }
+        width: 15px;
+        height: 15px;
+        font-size: 12px; }
       .modal-box__header-label {
         font-size: 9px; }
     .modal-box__footer {
@@ -380,8 +368,6 @@ body {
 
   .modal-box {
     margin-top: 5%; }
-    .modal-box__header .space {
-      margin-right: 25px; }
     .modal-box__content .profile {
       padding: 20px 30px 10px 30px; }
       .modal-box__content .profile__label {
@@ -408,8 +394,6 @@ body {
 
   .modal-box {
     margin-top: 5%; }
-    .modal-box__header .space {
-      margin-right: 25px; }
     .modal-box__content .profile {
       padding: 20px 30px 10px 30px; }
       .modal-box__content .profile__label {
