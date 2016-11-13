@@ -19,6 +19,7 @@ function modalCreate(element){
 
 function close(){
     $(".modal").addClass("hide");
+    currentModal = 0;
 }
 
 function shiftPage(modalId){
@@ -55,18 +56,36 @@ function shiftPage(modalId){
 
 }
 
-$(document).on("click",".next", function(){
+function moveNextPage() {
     var modalCount = templateData.length;
     if(currentModal < modalCount-1){
         currentModal++;
         shiftPage(currentModal);
     }
-});
+}
 
-$(document).on("click",".previous", function(){
+function movePreviousPage() {
     if(currentModal !== 0){
         currentModal--;
         shiftPage(currentModal);
+    }
+}
+
+$(document).on("click",".next", function(){
+    moveNextPage();
+});
+
+$(document).on("click",".previous", function(){
+    movePreviousPage();
+});
+
+$(document).keydown(function(e){
+    if(e.keyCode == 39 || e.keyCode ==38){
+        moveNextPage();
+        return false;
+    } else if(e.keyCode ==37 || e.keyCode ==40) {
+        movePreviousPage();
+        return false;
     }
 });
 
